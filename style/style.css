@@ -1,0 +1,102 @@
+@charset "UTF-8";
+@import url(style_Reset.css);
+
+/* div#wrap 시작*/
+div#wrap {
+    width: 900px;
+    padding: 40px 30px 20px;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+/* div#wrap 끝 */
+
+/* header#header 시작 */
+header#header h1::after {
+    content: "본 원에 바라는 점이나 제안을 부탁드립니다";
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 16px;
+}
+
+/* header#header 끝 */
+
+hr {
+    padding: 1px;
+    background-color: #888;
+    margin: 18px 0 100px;
+}
+/* div#searchDateArea 시작 */
+
+div#searchDateArea {
+    /* border: 1px solid #000; */
+    justify-content: space-between;
+    align-items: center;
+}
+#searchDateArea div#periodInputArea,
+#searchDateArea div#periodBtnArea {
+    padding: 1px;
+    /* border: 1px solid #08f; */
+    align-items: center;
+}
+
+#searchDateArea div#periodInputArea::before {
+    content:"";
+    width: 3px;
+    height: 5px;
+    margin-right: 6px;
+    background-image: url(../image/bul_h6.gif);
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+#searchDateArea div#periodInputArea h5 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#searchDateArea div#periodInputArea :nth-child(2n-1) {
+    font-size: 13px;
+    margin-right: 11px;
+}
+
+#searchDateArea div#periodInputArea input{
+    padding: 8px 2px;
+    border: 1px solid #aaa;
+    margin-right: 4px;
+
+}
+
+#searchDateArea div#periodBtnArea  button {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    padding: 6px 21px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 2px;
+    background-color: #3e7b0e;
+}
+
+/* div#searchDateArea 끝 */
+
+
+/* div#searchWordArea 시작 */
+
+div#searchWordArea {
+    border: 1px solid #f80;
+}
+
+/* div#searchWordArea 끝 */
+
+/* div#bbsGuide 시작 */
+
+
+/* div#bbsGuide 끝 */
+
+/* main#mainBBS 시작 */
+
+
+/* main#mainBBS 끝 */
+
+/*  */
+/*  */
